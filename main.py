@@ -6,8 +6,6 @@ from dev_nhentai import NHentai
 from dev_nhentai.entities.doujin import Doujin
 from telegram import InlineKeyboardButton, ParseMode, InputMediaPhoto
 from telegram.ext import Updater, MessageHandler, Filters, CallbackQueryHandler, CommandHandler
-from uuid import uuid1
-import logging
 
 
 def escape_markdown(text):
